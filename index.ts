@@ -158,37 +158,6 @@ function applyRules(nr: number, rules: Rule[]): string {
     }
 }
 
-
-
-
-// function printFizz(x: number): void {
-//     let msg: string = "";
-//     if (x % 3 == 0) {
-//         msg = "Fizz";
-//     }
-//     if (x % 5 == 0) {
-//         msg = msg + "Buzz";
-//     }
-//     if (x % 7 == 0) {
-//         msg = msg + "Bang";
-//     }
-//     if (x % 11 == 0) {
-//         msg = "Bong";
-//     }
-//     if (x % 13 == 0) {
-//         msg = addFezz(msg);
-//     }
-//     if (x % 17 == 0 && msg.length > 0) {
-//         msg = revWords(msg);
-//     }
-//
-//     if (msg.length > 0) {
-//         console.log(msg);
-//     } else {
-//         console.log(x);
-//     }
-// }
-//
 // Add Fezz before first occurence of a word that starts with "B"
 function addFezz(s: string): string {
     const indexOfB: number = s.indexOf("B");
